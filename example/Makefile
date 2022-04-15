@@ -1,4 +1,4 @@
-IMAGE := slok/kube-code-generator:latest
+IMAGE := liuxu623/kube-code-generator:v1.23.0
 
 DIRECTORY := $(PWD)
 PROJECT_PACKAGE := github.com/slok/kube-code-generator/example
