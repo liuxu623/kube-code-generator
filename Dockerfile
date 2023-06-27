@@ -1,10 +1,10 @@
 FROM golang:1.14
-ARG CODEGEN_VERSION="1.18.0"
+ARG CODEGEN_VERSION="1.18.5"
 ARG CONTROLLER_GEN_VERSION="0.2.5"
 
 RUN apt-get update && \
     apt-get install -y \
-    git 
+    git
 
 # Code generator stuff
 RUN wget http://github.com/kubernetes/code-generator/archive/kubernetes-${CODEGEN_VERSION}.tar.gz && \
